@@ -1,0 +1,70 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+table {
+  font-size: 0.95rem;
+}
+
+th {
+  background-color: #ff5810 !important;
+  color: white;
+}
+
+.badge {
+  font-size: 0.8rem;
+  padding: 6px 10px;
+  border-radius: 10px;
+}
+
+.tabla-scroll {
+  max-height: 400px;  
+  overflow-y: auto;    
+  overflow-x: auto;   
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.btn-menu {
+  position: fixed;
+  top: 100px;
+  left: 20px;
+  z-index: 1050;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+  background-color: #ff5810 !important;
+  border: none;
+  color: rgb(0, 0, 0) !important;
+  font-size: 1.2rem;
+}
+
+.btn-menu:hover {
+  background-color: #e14e0e !important;
+}
+
+.menu-flotante {
+  position: fixed;
+  top: 170px;
+  left: 20px;
+  z-index: 1050;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+  width: 200px;
+}
+
+.menu-flotante .btn {
+  background-color: #ff5810 !important; 
+  border: none !important;
+  color: #000000 !important;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.menu-flotante .btn:hover {
+  background-color: #e14e0e !important;
+}

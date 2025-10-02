@@ -1,0 +1,14 @@
+.banner-clientes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; 
+}
+.img-banner {
+    width: 60%;         
+    height: 520px;       
+    object-fit: cover;    
+    border-radius: 10px;  
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2); 
+}

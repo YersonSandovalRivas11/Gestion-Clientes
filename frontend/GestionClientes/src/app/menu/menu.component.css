@@ -1,0 +1,70 @@
+.navbar-custom {
+    background: linear-gradient(90deg, #ffffff, #ffffff);
+    padding: 0.8rem 1rem;
+    border-bottom: 3px solid #ff5810;
+  }
+  
+  .navbar-custom .navbar-brand {
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-custom .navbar-brand:hover {
+    color: #ff5810;
+  }
+  
+  .navbar-custom .nav-link {
+    position: relative;
+    color: #000000;
+    margin-right: 15px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .navbar-custom .nav-link:hover {
+    color: #ff5810;
+    transform: translateY(-2px);
+  }
+  
+  .navbar-custom .nav-link.active-link {
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .navbar-custom .nav-link.active-link::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #ff5810;
+    border-radius: 2px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .titulo-clientes {
+    color: #ff5810;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .btn-primary {
+    background-color: #00bcd4;
+    border-color: #00acc1;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0097a7;
+    border-color: #00838f;
+  }
+  
